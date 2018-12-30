@@ -1,0 +1,15 @@
+{
+ “manifest_version”: 1,
+ “name”: “Chaulk”,
+ “description”: “Connecting products to YouTube reviews”,
+ “version”: “1”,
+ “author”: “Ashley Chaulk”,
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   “default_title”: “Have a good day”
+ },
+“chrome_url_overrides” : {
+  “newtab”: “newtab.html”
+},
+ “permissions”: [“activeTab”]
+}
